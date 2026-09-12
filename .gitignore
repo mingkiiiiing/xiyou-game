@@ -1,2 +1,5 @@
 node_modules/
 dist/
+
+# 逆向拆解参考资料（4399 衍生物，仅本地研究，禁止入库/分发）
+reference/
