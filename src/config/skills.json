@@ -1,0 +1,148 @@
+[
+  {
+    "id": "thrust",
+    "name": "疾风突刺",
+    "charId": "linghou",
+    "cdMs": 3000,
+    "mpCost": 10,
+    "damageMul": 1.5,
+    "hitbox": { "w": 120, "h": 60, "offsetX": 60, "offsetY": -50, "delayMs": 100, "activeMs": 150 },
+    "dashSpeed": 700,
+    "levels": [
+      { "damageMul": 1.5, "mpCost": 10, "cdMs": 3000 },
+      { "damageMul": 1.75, "mpCost": 11, "cdMs": 2900 },
+      { "damageMul": 2.0, "mpCost": 12, "cdMs": 2800 },
+      { "damageMul": 2.3, "mpCost": 13, "cdMs": 2600 },
+      { "damageMul": 2.7, "mpCost": 14, "cdMs": 2400 }
+    ]
+  },
+  {
+    "id": "sweep",
+    "name": "横扫千军",
+    "charId": "linghou",
+    "cdMs": 6000,
+    "mpCost": 20,
+    "damageMul": 2.2,
+    "hitbox": { "w": 170, "h": 90, "offsetX": 70, "offsetY": -60, "delayMs": 150, "activeMs": 200 },
+    "levels": [
+      { "damageMul": 2.2, "mpCost": 20, "cdMs": 6000 },
+      { "damageMul": 2.5, "mpCost": 21, "cdMs": 5800 },
+      { "damageMul": 2.9, "mpCost": 22, "cdMs": 5600 },
+      { "damageMul": 3.3, "mpCost": 24, "cdMs": 5300 },
+      { "damageMul": 3.9, "mpCost": 26, "cdMs": 5000 }
+    ]
+  },
+  {
+    "id": "leap_slash",
+    "name": "裂空跳劈",
+    "charId": "linghou",
+    "cdMs": 8000,
+    "mpCost": 25,
+    "damageMul": 1.8,
+    "hitbox": { "w": 130, "h": 130, "offsetX": 40, "offsetY": -30, "delayMs": 200, "activeMs": 250 },
+    "levels": [
+      { "damageMul": 1.8, "mpCost": 25, "cdMs": 8000 },
+      { "damageMul": 2.1, "mpCost": 27, "cdMs": 7700 },
+      { "damageMul": 2.4, "mpCost": 29, "cdMs": 7400 },
+      { "damageMul": 2.8, "mpCost": 31, "cdMs": 7000 },
+      { "damageMul": 3.3, "mpCost": 34, "cdMs": 6600 }
+    ]
+  },
+  {
+    "id": "quake_smash",
+    "name": "崩山锤",
+    "charId": "manyan",
+    "cdMs": 5000,
+    "mpCost": 12,
+    "damageMul": 2.0,
+    "hitbox": { "w": 150, "h": 90, "offsetX": 80, "offsetY": -60, "delayMs": 180, "activeMs": 220 },
+    "levels": [
+      { "damageMul": 2.0, "mpCost": 12, "cdMs": 5000 },
+      { "damageMul": 2.3, "mpCost": 13, "cdMs": 4900 },
+      { "damageMul": 2.6, "mpCost": 14, "cdMs": 4700 },
+      { "damageMul": 3.0, "mpCost": 15, "cdMs": 4500 },
+      { "damageMul": 3.4, "mpCost": 17, "cdMs": 4200 }
+    ]
+  },
+  {
+    "id": "ground_quake",
+    "name": "地裂",
+    "charId": "manyan",
+    "cdMs": 8000,
+    "mpCost": 22,
+    "damageMul": 2.6,
+    "hitbox": { "w": 220, "h": 70, "offsetX": 110, "offsetY": -40, "delayMs": 220, "activeMs": 280 },
+    "levels": [
+      { "damageMul": 2.6, "mpCost": 22, "cdMs": 8000 },
+      { "damageMul": 3.0, "mpCost": 23, "cdMs": 7800 },
+      { "damageMul": 3.4, "mpCost": 25, "cdMs": 7600 },
+      { "damageMul": 3.9, "mpCost": 27, "cdMs": 7300 },
+      { "damageMul": 4.4, "mpCost": 30, "cdMs": 7000 }
+    ]
+  },
+  {
+    "id": "berserk_charge",
+    "name": "蛮牛冲",
+    "charId": "manyan",
+    "cdMs": 6000,
+    "mpCost": 16,
+    "damageMul": 1.8,
+    "hitbox": { "w": 130, "h": 80, "offsetX": 70, "offsetY": -55, "delayMs": 120, "activeMs": 180 },
+    "dashSpeed": 650,
+    "levels": [
+      { "damageMul": 1.8, "mpCost": 16, "cdMs": 6000 },
+      { "damageMul": 2.1, "mpCost": 17, "cdMs": 5900 },
+      { "damageMul": 2.4, "mpCost": 18, "cdMs": 5700 },
+      { "damageMul": 2.8, "mpCost": 20, "cdMs": 5500 },
+      { "damageMul": 3.1, "mpCost": 22, "cdMs": 5200 }
+    ]
+  },
+  {
+    "id": "fire_bolt",
+    "name": "炎弹",
+    "charId": "yunxuan",
+    "cdMs": 3500,
+    "mpCost": 10,
+    "damageMul": 1.6,
+    "hitbox": { "w": 60, "h": 60, "offsetX": 40, "offsetY": -50, "delayMs": 80, "activeMs": 120 },
+    "levels": [
+      { "damageMul": 1.6, "mpCost": 10, "cdMs": 3500 },
+      { "damageMul": 1.85, "mpCost": 11, "cdMs": 3400 },
+      { "damageMul": 2.1, "mpCost": 12, "cdMs": 3300 },
+      { "damageMul": 2.4, "mpCost": 13, "cdMs": 3200 },
+      { "damageMul": 2.75, "mpCost": 14, "cdMs": 3000 }
+    ]
+  },
+  {
+    "id": "ice_lance",
+    "name": "冰锥",
+    "charId": "yunxuan",
+    "cdMs": 6000,
+    "mpCost": 18,
+    "damageMul": 2.1,
+    "hitbox": { "w": 140, "h": 50, "offsetX": 90, "offsetY": -50, "delayMs": 100, "activeMs": 150 },
+    "levels": [
+      { "damageMul": 2.1, "mpCost": 18, "cdMs": 6000 },
+      { "damageMul": 2.4, "mpCost": 19, "cdMs": 5900 },
+      { "damageMul": 2.7, "mpCost": 20, "cdMs": 5700 },
+      { "damageMul": 3.1, "mpCost": 22, "cdMs": 5500 },
+      { "damageMul": 3.5, "mpCost": 24, "cdMs": 5200 }
+    ]
+  },
+  {
+    "id": "meteor",
+    "name": "陨石",
+    "charId": "yunxuan",
+    "cdMs": 9000,
+    "mpCost": 28,
+    "damageMul": 2.8,
+    "hitbox": { "w": 180, "h": 140, "offsetX": 60, "offsetY": -20, "delayMs": 300, "activeMs": 300 },
+    "levels": [
+      { "damageMul": 2.8, "mpCost": 28, "cdMs": 9000 },
+      { "damageMul": 3.2, "mpCost": 30, "cdMs": 8800 },
+      { "damageMul": 3.6, "mpCost": 32, "cdMs": 8500 },
+      { "damageMul": 4.1, "mpCost": 35, "cdMs": 8200 },
+      { "damageMul": 4.7, "mpCost": 38, "cdMs": 7800 }
+    ]
+  }
+]

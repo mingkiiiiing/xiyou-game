@@ -1,0 +1,31 @@
+{
+  "characters": [
+    {
+      "id": "linghou",
+      "name": "灵猴",
+      "role": "均衡连击 · 近战",
+      "baseMult": { "hp": 1.0, "mp": 1.0, "atk": 1.0, "def": 1.0, "speed": 1.0 },
+      "rangedBasic": false,
+      "artId": "linghou",
+      "blurb": "棍法迅捷，三连段与突进技能兼备，适合新手"
+    },
+    {
+      "id": "manyan",
+      "name": "蛮岩",
+      "role": "重装 · 近战",
+      "baseMult": { "hp": 1.6, "mp": 0.8, "atk": 1.35, "def": 1.3, "speed": 0.78 },
+      "rangedBasic": false,
+      "artId": "manyan",
+      "blurb": "牛魔重装，血厚攻高但迟缓，硬碰硬的打法"
+    },
+    {
+      "id": "yunxuan",
+      "name": "云璿",
+      "role": "远程 · 法师",
+      "baseMult": { "hp": 0.8, "mp": 1.4, "atk": 0.95, "def": 0.85, "speed": 1.12 },
+      "rangedBasic": true,
+      "artId": "yunxuan",
+      "blurb": "龙族法师，普攻远程弹幕，脆皮高机动"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "items": [
+    { "id": "wooden_staff", "name": "桃木棍", "slot": "weapon", "quality": "white", "baseStats": { "atk": 3 } },
+    { "id": "tie_gun", "name": "镔铁棍", "slot": "weapon", "quality": "white", "baseStats": { "atk": 5 } },
+    { "id": "iron_blade", "name": "精铁刀", "slot": "weapon", "quality": "green", "baseStats": { "atk": 6 } },
+    { "id": "qing_feng_jian", "name": "青锋剑", "slot": "weapon", "quality": "green", "baseStats": { "atk": 8 } },
+    { "id": "chan_si_gun", "name": "缠丝棍", "slot": "weapon", "quality": "blue", "baseStats": { "atk": 11, "maxHp": 10 } },
+    { "id": "zi_jin_gun", "name": "紫金棍", "slot": "weapon", "quality": "blue", "baseStats": { "atk": 14 } },
+    { "id": "huo_jian", "name": "火尖枪", "slot": "weapon", "quality": "blue", "baseStats": { "atk": 13 } },
+    { "id": "lang_ya_bang", "name": "狼牙棒", "slot": "weapon", "quality": "blue", "baseStats": { "atk": 12, "maxHp": 10 } },
+    { "id": "shan_shen_fu", "name": "山神斧", "slot": "weapon", "quality": "purple", "baseStats": { "atk": 16, "maxHp": 20 } },
+    { "id": "mo_wang_dao", "name": "魔王刀", "slot": "weapon", "quality": "purple", "baseStats": { "atk": 18, "def": 4 } },
+
+    { "id": "bu_jin", "name": "粗布巾", "slot": "head", "quality": "white", "baseStats": { "maxHp": 8 } },
+    { "id": "pi_mao", "name": "皮帽", "slot": "head", "quality": "white", "baseStats": { "maxHp": 10, "def": 1 } },
+    { "id": "tong_kui", "name": "铜盔", "slot": "head", "quality": "green", "baseStats": { "maxHp": 14, "def": 3 } },
+    { "id": "yin_kui", "name": "银盔", "slot": "head", "quality": "green", "baseStats": { "maxHp": 18, "def": 4 } },
+    { "id": "huo_ling_guan", "name": "火翎冠", "slot": "head", "quality": "green", "baseStats": { "maxHp": 16, "def": 3 } },
+    { "id": "jin_guan", "name": "黄金冠", "slot": "head", "quality": "blue", "baseStats": { "maxHp": 24, "def": 6 } },
+    { "id": "zi_jin_guan", "name": "紫金冠", "slot": "head", "quality": "blue", "baseStats": { "maxHp": 30, "def": 8 } },
+
+    { "id": "cloth_robe", "name": "粗布袍", "slot": "body", "quality": "white", "baseStats": { "maxHp": 20, "def": 2 } },
+    { "id": "duan_da", "name": "短打劲装", "slot": "body", "quality": "white", "baseStats": { "maxHp": 16, "def": 3 } },
+    { "id": "pi_jia", "name": "皮甲", "slot": "body", "quality": "green", "baseStats": { "maxHp": 28, "def": 4 } },
+    { "id": "kai_jia", "name": "铁叶铠甲", "slot": "body", "quality": "green", "baseStats": { "maxHp": 36, "def": 6 } },
+    { "id": "lang_pi_jia", "name": "狼皮甲", "slot": "body", "quality": "green", "baseStats": { "maxHp": 30, "def": 4 } },
+    { "id": "suo_zi_jia", "name": "锁子甲", "slot": "body", "quality": "blue", "baseStats": { "maxHp": 48, "def": 8 } },
+    { "id": "jin_si_jia", "name": "金丝软甲", "slot": "body", "quality": "blue", "baseStats": { "maxHp": 60, "def": 10 } },
+    { "id": "teng_jia", "name": "藤甲", "slot": "body", "quality": "blue", "baseStats": { "maxHp": 46, "def": 8, "maxMp": 10 } },
+    { "id": "yan_jia", "name": "岩甲", "slot": "body", "quality": "blue", "baseStats": { "maxHp": 52, "def": 9 } },
+
+    { "id": "cao_xie", "name": "草鞋", "slot": "shoes", "quality": "white", "baseStats": { "def": 1 } },
+    { "id": "ma_xie", "name": "麻鞋", "slot": "shoes", "quality": "white", "baseStats": { "maxHp": 6, "def": 1 } },
+    { "id": "pi_xue", "name": "皮靴", "slot": "shoes", "quality": "green", "baseStats": { "maxHp": 10, "def": 3 } },
+    { "id": "yun_lv", "name": "云履", "slot": "shoes", "quality": "green", "baseStats": { "maxHp": 14, "def": 4 } },
+    { "id": "lang_zhua_xue", "name": "狼爪靴", "slot": "shoes", "quality": "green", "baseStats": { "maxHp": 12, "def": 3 } },
+    { "id": "ji_feng_xue", "name": "疾风靴", "slot": "shoes", "quality": "blue", "baseStats": { "maxHp": 20, "def": 5, "maxMp": 10 } },
+    { "id": "ta_yun_xue", "name": "踏云靴", "slot": "shoes", "quality": "blue", "baseStats": { "maxHp": 26, "def": 7, "maxMp": 15 } },
+    { "id": "teng_xue", "name": "藤靴", "slot": "shoes", "quality": "blue", "baseStats": { "maxHp": 22, "def": 6, "maxMp": 12 } },
+
+    { "id": "mu_fu", "name": "桃木符", "slot": "accessory", "quality": "white", "baseStats": { "maxMp": 8 } },
+    { "id": "tong_ling", "name": "铜铃", "slot": "accessory", "quality": "white", "baseStats": { "maxMp": 12 } },
+    { "id": "yu_pei", "name": "青玉佩", "slot": "accessory", "quality": "green", "baseStats": { "maxMp": 18, "atk": 2 } },
+    { "id": "hu_shen_fu", "name": "护身符", "slot": "accessory", "quality": "green", "baseStats": { "maxMp": 24, "atk": 3 } },
+    { "id": "huo_ya", "name": "火鸦羽", "slot": "accessory", "quality": "green", "baseStats": { "maxMp": 20, "atk": 3 } },
+    { "id": "ju_ling_zhu", "name": "聚灵珠", "slot": "accessory", "quality": "blue", "baseStats": { "maxMp": 32, "atk": 5 } },
+    { "id": "zi_jin_hu_lu", "name": "紫金葫芦", "slot": "accessory", "quality": "blue", "baseStats": { "maxMp": 40, "atk": 7, "def": 2 } },
+    { "id": "shan_shen_ling", "name": "山神铃", "slot": "accessory", "quality": "purple", "baseStats": { "maxMp": 36, "atk": 8 } },
+    { "id": "mo_xin_zhu", "name": "魔心珠", "slot": "accessory", "quality": "purple", "baseStats": { "maxMp": 44, "atk": 9, "def": 3 } }
+  ]
+}

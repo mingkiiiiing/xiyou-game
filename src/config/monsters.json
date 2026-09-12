@@ -1,0 +1,523 @@
+{
+  "monsters": [
+    {
+      "id": "monkey_soldier",
+      "name": "猴兵",
+      "level": 1,
+      "stats": {
+        "hp": 40,
+        "atk": 8,
+        "def": 2,
+        "moveSpeed": 140
+      },
+      "aiType": "melee",
+      "attack": {
+        "damageMul": 1,
+        "range": 60,
+        "cooldownMs": 1200
+      },
+      "drops": [
+        {
+          "itemId": "wooden_staff",
+          "chance": 0.15
+        }
+      ],
+      "behaviors": [
+        "leap"
+      ]
+    },
+    {
+      "id": "shaman",
+      "name": "巫祝",
+      "level": 2,
+      "stats": {
+        "hp": 25,
+        "atk": 10,
+        "def": 0,
+        "moveSpeed": 100
+      },
+      "aiType": "ranged",
+      "attack": {
+        "damageMul": 1.2,
+        "range": 420,
+        "cooldownMs": 2000
+      },
+      "drops": [
+        {
+          "itemId": "cloth_robe",
+          "chance": 0.12
+        }
+      ],
+      "behaviors": [
+        "summon",
+        "retreat"
+      ]
+    },
+    {
+      "id": "boar_demon",
+      "name": "野猪精",
+      "level": 3,
+      "stats": {
+        "hp": 70,
+        "atk": 12,
+        "def": 4,
+        "moveSpeed": 120
+      },
+      "aiType": "melee",
+      "attack": {
+        "damageMul": 1.2,
+        "range": 70,
+        "cooldownMs": 1500
+      },
+      "drops": [
+        {
+          "itemId": "qing_feng_jian",
+          "chance": 0.12
+        },
+        {
+          "itemId": "pi_mao",
+          "chance": 0.1
+        }
+      ],
+      "behaviors": [
+        "charge"
+      ]
+    },
+    {
+      "id": "bat_demon",
+      "name": "蝙蝠妖",
+      "level": 3,
+      "stats": {
+        "hp": 35,
+        "atk": 13,
+        "def": 0,
+        "moveSpeed": 170
+      },
+      "aiType": "ranged",
+      "attack": {
+        "damageMul": 1.1,
+        "range": 380,
+        "cooldownMs": 1600
+      },
+      "drops": [
+        {
+          "itemId": "pi_xue",
+          "chance": 0.1
+        }
+      ],
+      "behaviors": [
+        "leap",
+        "fanShot"
+      ]
+    },
+    {
+      "id": "stone_guard",
+      "name": "石甲卫",
+      "level": 4,
+      "stats": {
+        "hp": 120,
+        "atk": 14,
+        "def": 10,
+        "moveSpeed": 80
+      },
+      "aiType": "melee",
+      "attack": {
+        "damageMul": 1.5,
+        "range": 80,
+        "cooldownMs": 1800
+      },
+      "drops": [
+        {
+          "itemId": "kai_jia",
+          "chance": 0.12
+        },
+        {
+          "itemId": "yu_pei",
+          "chance": 0.08
+        }
+      ],
+      "behaviors": [
+        "shield",
+        "charge"
+      ]
+    },
+    {
+      "id": "demon_king",
+      "name": "混世魔王",
+      "level": 5,
+      "stats": {
+        "hp": 800,
+        "atk": 15,
+        "def": 8,
+        "moveSpeed": 170
+      },
+      "aiType": "boss",
+      "attack": {
+        "damageMul": 1.5,
+        "range": 90,
+        "cooldownMs": 1500
+      },
+      "drops": [
+        {
+          "itemId": "iron_blade",
+          "chance": 1
+        },
+        {
+          "itemId": "chan_si_gun",
+          "chance": 0.35
+        }
+      ],
+      "behaviors": [
+        "charge"
+      ]
+    },
+    {
+      "id": "wood_wolf",
+      "name": "木魅狼",
+      "level": 4,
+      "stats": {
+        "hp": 90,
+        "atk": 12,
+        "def": 6,
+        "moveSpeed": 155
+      },
+      "aiType": "melee",
+      "attack": {
+        "damageMul": 1.1,
+        "range": 70,
+        "cooldownMs": 1300
+      },
+      "drops": [
+        {
+          "itemId": "lang_zhua_xue",
+          "chance": 0.12
+        },
+        {
+          "itemId": "lang_pi_jia",
+          "chance": 0.1
+        }
+      ],
+      "behaviors": [
+        "leap",
+        "retreat"
+      ]
+    },
+    {
+      "id": "rock_ape",
+      "name": "岩臂猿",
+      "level": 6,
+      "stats": {
+        "hp": 220,
+        "atk": 20,
+        "def": 12,
+        "moveSpeed": 110
+      },
+      "aiType": "melee",
+      "attack": {
+        "damageMul": 1.3,
+        "range": 85,
+        "cooldownMs": 1500
+      },
+      "drops": [
+        {
+          "itemId": "yan_jia",
+          "chance": 0.12
+        },
+        {
+          "itemId": "lang_ya_bang",
+          "chance": 0.1
+        }
+      ],
+      "behaviors": [
+        "charge",
+        "shield"
+      ]
+    },
+    {
+      "id": "fire_crow",
+      "name": "火鸦",
+      "level": 5,
+      "stats": {
+        "hp": 60,
+        "atk": 16,
+        "def": 2,
+        "moveSpeed": 125
+      },
+      "aiType": "ranged",
+      "attack": {
+        "damageMul": 1.35,
+        "range": 420,
+        "cooldownMs": 1800
+      },
+      "drops": [
+        {
+          "itemId": "huo_ya",
+          "chance": 0.15
+        },
+        {
+          "itemId": "huo_ling_guan",
+          "chance": 0.08
+        }
+      ],
+      "behaviors": [
+        "fanShot"
+      ]
+    },
+    {
+      "id": "vine_spirit",
+      "name": "藤蔓精",
+      "level": 6,
+      "stats": {
+        "hp": 80,
+        "atk": 18,
+        "def": 6,
+        "moveSpeed": 60
+      },
+      "aiType": "ranged",
+      "attack": {
+        "damageMul": 1.3,
+        "range": 400,
+        "cooldownMs": 2100
+      },
+      "drops": [
+        {
+          "itemId": "teng_jia",
+          "chance": 0.1
+        },
+        {
+          "itemId": "teng_xue",
+          "chance": 0.1
+        }
+      ],
+      "behaviors": [
+        "retreat",
+        "fanShot"
+      ]
+    },
+    {
+      "id": "mountain_spirit",
+      "name": "山魈",
+      "level": 6,
+      "stats": {
+        "hp": 650,
+        "atk": 20,
+        "def": 10,
+        "moveSpeed": 150
+      },
+      "aiType": "boss",
+      "attack": {
+        "damageMul": 1.7,
+        "range": 100,
+        "cooldownMs": 1400
+      },
+      "drops": [
+        {
+          "itemId": "shan_shen_fu",
+          "chance": 1
+        },
+        {
+          "itemId": "shan_shen_ling",
+          "chance": 0.4
+        },
+        {
+          "itemId": "huo_jian",
+          "chance": 0.5
+        }
+      ],
+      "behaviors": [
+        "charge",
+        "summon"
+      ]
+    },
+    {
+      "id": "shrimp_soldier",
+      "name": "虾兵",
+      "level": 9,
+      "stats": {
+        "hp": 150,
+        "atk": 18,
+        "def": 7,
+        "moveSpeed": 130
+      },
+      "aiType": "melee",
+      "attack": {
+        "damageMul": 1.2,
+        "range": 65,
+        "cooldownMs": 1400
+      },
+      "drops": [
+        {
+          "itemId": "zi_jin_gun",
+          "chance": 0.1
+        },
+        {
+          "itemId": "ji_feng_xue",
+          "chance": 0.1
+        }
+      ],
+      "behaviors": [
+        "leap"
+      ]
+    },
+    {
+      "id": "crab_guard",
+      "name": "蟹将",
+      "level": 10,
+      "stats": {
+        "hp": 260,
+        "atk": 20,
+        "def": 14,
+        "moveSpeed": 85
+      },
+      "aiType": "melee",
+      "attack": {
+        "damageMul": 1.4,
+        "range": 75,
+        "cooldownMs": 1700
+      },
+      "drops": [
+        {
+          "itemId": "suo_zi_jia",
+          "chance": 0.1
+        },
+        {
+          "itemId": "jin_guan",
+          "chance": 0.08
+        }
+      ],
+      "behaviors": [
+        "shield"
+      ]
+    },
+    {
+      "id": "shark_guard",
+      "name": "鲨卫",
+      "level": 11,
+      "stats": {
+        "hp": 190,
+        "atk": 23,
+        "def": 8,
+        "moveSpeed": 175
+      },
+      "aiType": "melee",
+      "attack": {
+        "damageMul": 1.35,
+        "range": 75,
+        "cooldownMs": 1300
+      },
+      "drops": [
+        {
+          "itemId": "ta_yun_xue",
+          "chance": 0.1
+        },
+        {
+          "itemId": "zi_jin_gun",
+          "chance": 0.1
+        }
+      ],
+      "behaviors": [
+        "charge"
+      ]
+    },
+    {
+      "id": "turtle_prince",
+      "name": "龟丞相",
+      "level": 11,
+      "stats": {
+        "hp": 170,
+        "atk": 22,
+        "def": 12,
+        "moveSpeed": 70
+      },
+      "aiType": "ranged",
+      "attack": {
+        "damageMul": 1.4,
+        "range": 430,
+        "cooldownMs": 1900
+      },
+      "drops": [
+        {
+          "itemId": "jin_si_jia",
+          "chance": 0.1
+        },
+        {
+          "itemId": "ju_ling_zhu",
+          "chance": 0.1
+        }
+      ],
+      "behaviors": [
+        "retreat",
+        "fanShot"
+      ]
+    },
+    {
+      "id": "jelly_fish",
+      "name": "水母妖",
+      "level": 12,
+      "stats": {
+        "hp": 100,
+        "atk": 25,
+        "def": 4,
+        "moveSpeed": 115
+      },
+      "aiType": "ranged",
+      "attack": {
+        "damageMul": 1.4,
+        "range": 420,
+        "cooldownMs": 1600
+      },
+      "drops": [
+        {
+          "itemId": "teng_xue",
+          "chance": 0.1
+        },
+        {
+          "itemId": "zi_jin_hu_lu",
+          "chance": 0.08
+        }
+      ],
+      "behaviors": [
+        "fanShot"
+      ]
+    },
+    {
+      "id": "dragon_king",
+      "name": "东海龙王",
+      "level": 13,
+      "stats": {
+        "hp": 1400,
+        "atk": 20,
+        "def": 12,
+        "moveSpeed": 170
+      },
+      "aiType": "boss",
+      "attack": {
+        "damageMul": 1.6,
+        "range": 100,
+        "cooldownMs": 1500
+      },
+      "drops": [
+        {
+          "itemId": "mo_wang_dao",
+          "chance": 1
+        },
+        {
+          "itemId": "zi_jin_guan",
+          "chance": 0.4
+        },
+        {
+          "itemId": "zi_jin_hu_lu",
+          "chance": 0.5
+        },
+        {
+          "itemId": "mo_xin_zhu",
+          "chance": 0.35
+        }
+      ],
+      "behaviors": [
+        "charge",
+        "summon"
+      ]
+    }
+  ]
+}

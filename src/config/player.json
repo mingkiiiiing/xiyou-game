@@ -1,0 +1,12 @@
+{
+  "hp": 100,
+  "maxHp": 100,
+  "mp": 50,
+  "maxMp": 50,
+  "atk": 10,
+  "def": 5,
+  "critRate": 8,
+  "critDmg": 150,
+  "moveSpeed": 320,
+  "growthPerLevel": { "hp": 0.08, "mp": 0.05, "atk": 0.06, "def": 0.04 }
+}

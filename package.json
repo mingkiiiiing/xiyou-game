@@ -1,0 +1,33 @@
+{
+  "name": "xiyou-game",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "check-data": "tsx scripts/validate-config.ts",
+    "smoke": "tsx scripts/smoke-test.ts",
+    "stress": "tsx scripts/stress-test.ts",
+    "test-item": "tsx src/item/test.ts",
+    "sheet": "tsx scripts/render-sheet.ts",
+    "art-coverage": "tsx scripts/check-art.ts",
+    "verify": "npm run check-data && npm run test-item && npm run test-combat && npm run test-economy && npm run test-content && npm run test-pet && npm run test-service && npm run smoke && npm run stress && npm run art-coverage",
+    "frame": "tsx scripts/render-frame.ts",
+    "test-combat": "tsx scripts/combat-test.ts",
+    "test-economy": "tsx scripts/economy-test.ts",
+    "test-content": "tsx scripts/content-test.ts",
+    "test-pet": "tsx scripts/pet-test.ts",
+    "test-service": "tsx scripts/service-test.ts",
+    "serve": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "pixi.js": "^8.6.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.0"
+  }
+}

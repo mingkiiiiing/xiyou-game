@@ -1,0 +1,32 @@
+{
+  "pets": [
+    {
+      "id": "pet_gugu",
+      "name": "咕咕鸟",
+      "kind": "attacker",
+      "price": 150,
+      "attackCdMs": 2200,
+      "damageMul": 0.5,
+      "blurb": "悬浮在主人身后的青羽小鸟，每 2.2 秒对最近的敌人啄出一枚风羽弹（伤害 50%）。",
+      "color": "#6fbef0"
+    },
+    {
+      "id": "pet_fox",
+      "name": "火狐狸",
+      "kind": "buffer",
+      "price": 200,
+      "buff": { "stat": "atk", "pct": 8 },
+      "blurb": "尾巴燃着小火苗的灵狐，伴随主人时攻击力 +8%。",
+      "color": "#f2803a"
+    },
+    {
+      "id": "pet_rabbit",
+      "name": "玉兔",
+      "kind": "buffer",
+      "price": 180,
+      "buff": { "stat": "maxHp", "pct": 10 },
+      "blurb": "捣药归来的月宫玉兔，伴随主人时生命上限 +10%。",
+      "color": "#eef2f6"
+    }
+  ]
+}

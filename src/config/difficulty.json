@@ -1,0 +1,7 @@
+{
+  "difficulties": [
+    { "id": "normal", "name": "普通", "hp": 1.0, "atk": 1.0, "def": 1.0, "gold": 1.0, "qualityBonus": 0, "unlock": "none" },
+    { "id": "elite", "name": "精英", "hp": 1.6, "atk": 1.4, "def": 1.25, "gold": 1.5, "qualityBonus": 1, "unlock": "normal" },
+    { "id": "nightmare", "name": "噩梦", "hp": 2.4, "atk": 1.9, "def": 1.5, "gold": 2.2, "qualityBonus": 2, "unlock": "elite" }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "gems": [
+    { "id": "gem_atk_1", "name": "攻击石·壹", "tier": 1, "attr": "atk", "value": 2 },
+    { "id": "gem_atk_2", "name": "攻击石·贰", "tier": 2, "attr": "atk", "value": 5 },
+    { "id": "gem_atk_3", "name": "攻击石·叁", "tier": 3, "attr": "atk", "value": 10 },
+    { "id": "gem_def_1", "name": "守御石·壹", "tier": 1, "attr": "def", "value": 1 },
+    { "id": "gem_def_2", "name": "守御石·贰", "tier": 2, "attr": "def", "value": 3 },
+    { "id": "gem_def_3", "name": "守御石·叁", "tier": 3, "attr": "def", "value": 6 },
+    { "id": "gem_hp_1", "name": "血珀石·壹", "tier": 1, "attr": "maxHp", "value": 10 },
+    { "id": "gem_hp_2", "name": "血珀石·贰", "tier": 2, "attr": "maxHp", "value": 25 },
+    { "id": "gem_hp_3", "name": "血珀石·叁", "tier": 3, "attr": "maxHp", "value": 50 },
+    { "id": "gem_mp_1", "name": "灵蕴石·壹", "tier": 1, "attr": "maxMp", "value": 6 },
+    { "id": "gem_mp_2", "name": "灵蕴石·贰", "tier": 2, "attr": "maxMp", "value": 15 },
+    { "id": "gem_mp_3", "name": "灵蕴石·叁", "tier": 3, "attr": "maxMp", "value": 30 }
+  ]
+}

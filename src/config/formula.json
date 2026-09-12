@@ -1,0 +1,6 @@
+{
+  "variance": 0.05,
+  "defenseK": 100,
+  "defenseLevelFactor": 12,
+  "mpRegenPerSec": 4
+}

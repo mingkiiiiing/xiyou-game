@@ -1,0 +1,14 @@
+{
+  "achievements": [
+    { "id": "first_blood", "name": "初出茅庐", "desc": "累计击败 20 只妖怪", "stat": "kills", "goal": 20, "rewardGold": 100, "rewardSkillPoints": 0 },
+    { "id": "veteran", "name": "身经百战", "desc": "累计击败 100 只妖怪", "stat": "kills", "goal": 100, "rewardGold": 350, "rewardSkillPoints": 0 },
+    { "id": "warlord", "name": "杀神", "desc": "累计击败 300 只妖怪", "stat": "kills", "goal": 300, "rewardGold": 1000, "rewardSkillPoints": 1 },
+    { "id": "rising_star", "name": "小有名气", "desc": "累计通关 3 次", "stat": "levelsCleared", "goal": 3, "rewardGold": 150, "rewardSkillPoints": 0 },
+    { "id": "chapter_master", "name": "章节制霸", "desc": "累计通关 7 次", "stat": "levelsCleared", "goal": 7, "rewardGold": 600, "rewardSkillPoints": 1 },
+    { "id": "first_pot", "name": "第一桶金", "desc": "累计获得 500 金币", "stat": "goldEarned", "goal": 500, "rewardGold": 120, "rewardSkillPoints": 0 },
+    { "id": "deep_pockets", "name": "腰缠万贯", "desc": "累计获得 3000 金币", "stat": "goldEarned", "goal": 3000, "rewardGold": 700, "rewardSkillPoints": 1 },
+    { "id": "hammer_time", "name": "锤炼", "desc": "累计强化装备 5 次", "stat": "strenghtens", "goal": 5, "rewardGold": 150, "rewardSkillPoints": 0 },
+    { "id": "gem_wings", "name": "如虎添翼", "desc": "累计镶嵌宝石 3 次", "stat": "gemsSocketed", "goal": 3, "rewardGold": 200, "rewardSkillPoints": 0 },
+    { "id": "jewel_king", "name": "珠光宝气", "desc": "累计镶嵌宝石 10 次", "stat": "gemsSocketed", "goal": 10, "rewardGold": 1500, "rewardSkillPoints": 2 }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "maxLevel": 15,
+  "bonusPerLevel": 0.08,
+  "successRate": [100, 100, 90, 80, 70, 60, 50, 40, 30, 20, 15, 12, 10, 8, 6],
+  "failPenalty": "none"
+}
